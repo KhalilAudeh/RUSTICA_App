@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blessed_are_those_who_see_beautiful_things_in_h_3_11_2017_10_57_35_pm_l"
+    tools:context="com.example.srourcompu.sample_app.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/logoText"
+            android:text="@string/LOGO"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/SignInButton"
+            android:text="sign in"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cornerRadius="5dp"
+            app:buttonColor="@color/SignInColor"/>
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/SignUpButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="sign up"
+            android:textColor="@android:color/black"
+            app:buttonColor="@color/SignUpColor"
+            app:cornerRadius="5dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

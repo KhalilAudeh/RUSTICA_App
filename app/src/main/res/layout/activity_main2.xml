@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall_1"
+    tools:context="com.example.srourcompu.sample_app.Main2Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientID"
+            android:hint="Your ID Number"
+            android:textColorHint="@android:color/black"
+            android:text="2018***"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientName"
+            android:hint="Your Name"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:inputType="textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/clientPassword"
+            android:hint="Your Password"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/SignInButton"
+        android:text="sign in"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_margin="100dp"
+        app:cornerRadius="10dp"
+        app:buttonColor="@color/SignInColor"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

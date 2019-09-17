@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "937566829978",
+    "firebase_url": "https://rustica-10925.firebaseio.com",
+    "project_id": "rustica-10925",
+    "storage_bucket": "rustica-10925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937566829978:android:d301f00dbc747e83",
+        "android_client_info": {
+          "package_name": "com.example.srourcompu.sample_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937566829978-3alo1gogo2k24gch8hlhcngm1b30uavb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srourcompu.sample_app",
+            "certificate_hash": "4c708f9cfa0456ae042860b83576c48ffe5806fc"
+          }
+        },
+        {
+          "client_id": "937566829978-pa0e46uv5saplq8fhijkc3dcv4nrlmgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9bKVjNVNzyCMMFNCbgitQA8U8VJDblXM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937566829978-pa0e46uv5saplq8fhijkc3dcv4nrlmgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

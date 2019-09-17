@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/blessed_are_those_who_see_beautiful_things_in_h_3_11_2017_10_57_35_pm_l"
+    tools:context="com.example.srourcompu.sample_app.Table">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listTable"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_alignParentBottom="true"
+            android:layout_height="120dp"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout">
+
+                    <TextView
+                        android:text="Total Price: "
+                        android:textStyle="italic|bold"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/totalPrice"
+                        android:layout_marginLeft="20dp"
+                        android:text="20,000 L.L."
+                        android:textStyle="italic|bold"
+                        android:textSize="25dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/orderButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:text="Place Your Order :)"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    app:buttonColor="@color/SignInColor"
+                    app:cornerRadius="10dp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+</RelativeLayout>

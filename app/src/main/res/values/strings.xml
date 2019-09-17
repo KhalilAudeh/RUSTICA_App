@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sample_App</string>
+    <string name="action_settings">Settings</string>
+    <string name="LOGO">No matter where you are: If you are at home, or in the office, or even just walking on the road,
+        RUSTICA will find you, wherever you are, and will satisfy your appetite.</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
